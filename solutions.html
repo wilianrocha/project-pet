@@ -112,20 +112,7 @@ function top1() {
 <button class="button" onclick="top1()" >PET Volume 1 </button></br>
 
 <div id="pet6" style="display:none" > Solução da semana 1 do pet 6 </div>
-<div id="pet5" style="display:none" > testando 5
-<?php
-  $drive = new Google_Service_Drive($client);
-  $file_id = "1DA8OL1bowwOvlzwJ9gFoI02zhhfV7Bw4";
-
-  $optpParams = array(
-      'fields' => "size"
-      );
-      
-  $response = $drive->files->get($file_id, $optpParams);
-  echo $response->size;
-?>
-
-</div>
+<div id="pet5" style="display:none" > testando 5</div>
 <div id="pet4" style="display:none" > testando 4</div>
 <div id="pet3" style="display:none" > testando 3</div>
 <div id="pet2" style="display:none" > testando 2</div>
